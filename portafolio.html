@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Portafolio — ArteX Company</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">ATX</div>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="portafolio.html">Portafolio</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2 class="page-title">Portafolio</h2>
+
+    <div id="galeria" class="gallery"></div>
+
+    <h3>Agregar nuevo diseño</h3>
+    <form id="formPortafolio" enctype="multipart/form-data">
+      <input type="text" name="titulo" placeholder="Título" required />
+      <input type="text" name="descripcion" placeholder="Descripción" required />
+      <label>Imagen (subir desde tu PC):</label>
+      <input type="file" name="imagen" accept="image/*" required />
+      <button type="submit" class="btn">Agregar Proyecto</button>
+    </form>
+    <p class="nota">Las imágenes se guardan en el servidor y se muestran automáticamente.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2025 ArteX Company</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Coloca aquí tus imágenes y logo. El servidor guardará imágenes subidas en la carpeta 'uploads'.
